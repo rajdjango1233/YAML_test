@@ -1,0 +1,15 @@
+-  job:
+    name: sample_yaml_job
+    project-type: freestyle
+    description: This is a Sample free-style job for testing in local.
+  - name: Run a script using an executable in a system path
+    builders:
+     - shell:
+           #!/bin/bash -ex
+           cd
+           cd Documents/test
+           python3 test.py
+           date
+    properties:
+      - build-discarder:
+          num-to-keep: 5
