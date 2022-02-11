@@ -6,8 +6,7 @@
     builders:
      - shell:
            #!/bin/bash -ex
-           cd
-           cd Documents/test
+
            python3 test.py
            date
     properties:
