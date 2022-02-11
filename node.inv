@@ -1,0 +1,2 @@
+[my_host]
+3.110.223.70 ansible_user=ec2-user
