@@ -4,9 +4,5 @@
 - hosts: my_host
   tasks:
   - name: sample yaml job
-    shell:
-           #!/bin/bash -ex
-
-           python test.py
-           echo "print date"
+    shell: echo "print date"
            date
