@@ -4,5 +4,5 @@
 - hosts: my_host
   tasks:
   - name: sample yaml job
-    shell: echo "print date"
+    shell: echo print date
            date
