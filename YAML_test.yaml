@@ -1,7 +1,7 @@
 ---
 
 - hosts: my_host
-- job:
+  tasks:
   - name: sample_yaml_job
     project-type: freestyle
     description: This is a Sample free-style job for testing in local.
