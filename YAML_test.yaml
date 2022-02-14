@@ -6,4 +6,4 @@
   - name: sample yaml job
     shell: #!/bin/bash -e
 
-           python test.py
+           python3 test.py
