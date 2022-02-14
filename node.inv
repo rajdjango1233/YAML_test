@@ -1,2 +1,2 @@
 [my_host]
-35.154.52.187 ansible_user=ec2-user
+3.109.49.33 ansible_user=ec2-user
