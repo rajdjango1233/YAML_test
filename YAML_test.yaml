@@ -5,5 +5,5 @@
   tasks:
   - name: sample yaml job
     shell: #!/bin/bash -e
-
+           echo "executing python script"
            python3 test.py
