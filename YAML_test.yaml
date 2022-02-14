@@ -7,4 +7,4 @@
            #!/bin/bash -ex
 
            python3 test.py
-           echo "print date: " date
+           date
