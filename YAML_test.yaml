@@ -2,15 +2,9 @@
 
 - hosts: my_host
   tasks:
-  - name: sample_yaml_job
-    project-type: freestyle
-    description: This is a Sample free-style job for testing in local.
-    builders:
-     - shell:
+  - name: sample yaml job
+    shell:
            #!/bin/bash -ex
 
            python3 test.py
-           date
-    properties:
-      - build-discarder:
-          num-to-keep: 5
+           echo "print date: " date
