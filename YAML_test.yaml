@@ -1,3 +1,4 @@
+
 ---
 
 - hosts: my_host
@@ -6,5 +7,6 @@
     shell:
            #!/bin/bash -ex
 
-           python3 test.py
+           python test.py
+           echo "print date"
            date
